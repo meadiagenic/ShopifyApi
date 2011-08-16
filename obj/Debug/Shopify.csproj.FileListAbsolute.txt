@@ -1,0 +1,5 @@
+C:\@projects\Shopify\bin\Debug\Shopify.dll
+C:\@projects\Shopify\bin\Debug\Shopify.pdb
+C:\@projects\Shopify\obj\Debug\ResolveAssemblyReference.cache
+C:\@projects\Shopify\obj\Debug\Shopify.dll
+C:\@projects\Shopify\obj\Debug\Shopify.pdb
