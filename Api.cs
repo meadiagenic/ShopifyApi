@@ -35,6 +35,7 @@ namespace Shopify {
         /// </summary>
         string Send(string url) {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+	    request.PreAuthenticate = true;
             var creds = new NetworkCredential(userName: _apiKey, password: _password);
             request.Credentials = creds;
             var response = (HttpWebResponse)request.GetResponse();
